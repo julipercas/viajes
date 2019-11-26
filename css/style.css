@@ -5,3 +5,9 @@ body{
     border: solid 4px yellow;
     width: 35%;
 }
+aside{
+    border: solid 4px yellow;
+}
+article{
+    border: solid 4px yellow;
+}
