@@ -1,3 +1,6 @@
 body{
     background-color: blue;
 }
+#dibujito{
+    border: solid 3px black;
+}
