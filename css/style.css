@@ -1,13 +1,77 @@
-body{
-    background-color: blue;
+@font-face{
+    font-family: "ballpark";
+    src: url("../fonts/ballpark.woff");
+    src: url("../fonts/ballpark.eot");
+    src: url("../fonts/ballpark.ttf");
 }
-#dibujito{
-    border: solid 4px yellow;
-    width: 35%;
+@font-face{
+    font-family: "dayrom";
+    src: url("../fonts/dayrom.eot");
+    src: url("../fonts/dayrom.ttf");
+    src: url("../fonts/dayrom.woff");
+}
+body{
+    background-color: rgb(255, 239, 167);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(165, 122, 14);
+}
+h1{
+    font-family: "ballpark";
+}
+h2{
+    font-family: "dayrom";
+    word-spacing: 1em;
+}
+h3{
+    font-size: 1.5em;
+    position: relative;
+    top: 10%;
+}
+table{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+table, tr {
+    width: 70%;
+}
+nav{
+    margin-left: 30%;
+    margin-right: auto;
+    
 }
 aside{
-    border: solid 4px yellow;
+    font-family: "dayrom";
+    width: 28%;
+    
 }
 article{
-    border: solid 4px yellow;
+    font-family: "dayrom";
+    width:68%;
+    text-align: top;
+    border: solid 1px black;
 }
+
+.juntitos{
+    display: inline-block;
+}
+#maleta{
+    float: left;
+    height: 50px;
+    clear:both;
+}
+#dibujito{
+    width: 95%;
+}
+#pin{
+    height: 40px;
+    float: left;
+}
+
