@@ -34,6 +34,14 @@ h3{
     font-size: 1.5em;
     position: relative;
     top: 10%;
+    font-family: "dayrom";
+}
+h4{
+    font-size: 1em;
+    position: relative;
+    top: 10%;
+    color: white;
+    font-family: "dayrom";
 }
 table{
     margin-left: 15%;
@@ -49,18 +57,32 @@ nav{
 }
 aside{
     font-family: "dayrom";
-    width: 25%;
-    
+    width: 14%;
+    float: right;
+    margin-right: 5%;
+    background-color: rgb(46, 46, 46);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    margin-bottom: 1%;
 }
 article{
     font-family: "dayrom";
-    width:68%;
+    width:76%;
     text-align: top;
-    border: solid 1px black;
 }
-
+hr{
+    clear: both;
+    background-image: url("../images/line.png");
+    margin-bottom:0;
+}
 .juntitos{
     display: inline-block;
+}
+.myphotos{
+    float: right;
+    border: solid 1px black;
 }
 #maleta{
     float: left;
@@ -69,9 +91,27 @@ article{
 }
 #dibujito{
     width: 95%;
+    border-radius: 5px;
+    box-shadow: 1px 3px #888888;
 }
 #pin{
     height: 40px;
     float: left;
+}
+
+#flechita{
+    width:7%;
+    margin-left: 20%;
+}
+#nested{
+    width: 17%;
+    color: darkred;
+    list-style-image: url('../images/external_link.png');
+}
+
+#nested1{
+    width: 17%;
+    color: black;
+    font-size: small;
 }
 
